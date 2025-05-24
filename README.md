@@ -96,11 +96,17 @@ sudo dd of=/dev/null if=/dev/mapper/dmp1 bs=4k count=1
 cat /sys/kernel/dmp
 ```
 В этой директории находятся 6 файлов:
+
 avg_size - среднйи размер блока всех операций
+
 avg_write_size - средний размер блока записи
+
 avg_read_size - средний размер блока чтения
+
 write_reqs - количество операций записи
+
 read-reqs - количесвто операций чтения
+
 total_reqs - общее количество операций
 
 
